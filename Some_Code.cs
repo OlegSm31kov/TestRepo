@@ -5,7 +5,7 @@ namespace Prakt_01
     public class Book
     {
         string title;  
-        string author;
+        string authb3or;
         int year_published;
 
         public string Title
@@ -23,7 +23,7 @@ namespace Prakt_01
         public int YearPublished
         {
             get { return year_published; }
-            set { year_published = value; }
+            set { year_published = value }
         }
 
         public void PrintDetails()
