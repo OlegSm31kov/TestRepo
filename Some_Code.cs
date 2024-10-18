@@ -43,6 +43,14 @@ namespace Prakt_01
             dune.YearPublished = 1965;
 
             dune.PrintDetails();
+
+            Book dune = new Book();
+
+            dune.Title = "Dune2";
+            dune.Author = "Frank Herbert";
+            dune.YearPublished = 1967;
+
+            dune.PrintDetails();
         }
     }
 }
