@@ -11,7 +11,7 @@ namespace Prakt_01
         public string Title
         {
             get { return title; }
-            set { title = value; }
+            set { title = value }
         }
 
         public string Author
